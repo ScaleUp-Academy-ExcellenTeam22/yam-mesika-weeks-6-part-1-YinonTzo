@@ -8,8 +8,7 @@ def read_numbers() -> map:
 
 def positive_numbers() -> list:
     """
-    Go over all numbers and filter all values are positive
-    :return:
+    :return: List with all values are positive
     """
     numbers = read_numbers()
     return list(filter(lambda num: num >= 0, numbers))
