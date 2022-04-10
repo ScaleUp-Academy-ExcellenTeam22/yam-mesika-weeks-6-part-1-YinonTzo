@@ -2,8 +2,8 @@
 
 def words_length(sentence: str) -> dict[str: int]:
     """
-    :param sentence: Some string to split
-    :return: dict which contains every word and its length
+    :param sentence: Some string to split.
+    :return: Dict which contains every word and its length.
     """
     return {word: len(word) for word in sentence.split(" ")}
 
