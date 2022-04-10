@@ -5,8 +5,8 @@ def clean_text(text: str) -> list:
     """
     https://towardsdatascience.com/how-to-efficiently-remove-punctuations-from-a-string-899ad4a059fb
     Makes table which include all signs to remove. Then translate the text and split it.
-    :param text: Text with punctuations, whitespaces and numbers
-    :return: List with only words
+    :param text: Text with punctuations, whitespaces and numbers.
+    :return: List with only words.
     """
     exclist = string.punctuation + string.digits
     table = str.maketrans('', '', exclist)
