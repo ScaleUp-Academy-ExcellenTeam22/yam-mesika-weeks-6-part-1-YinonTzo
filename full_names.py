@@ -1,5 +1,8 @@
 def full_names(first_names: list, last_names: list, min_length: int = None) -> list:
     """
+    Compose full names from first names and last names.
+    Each first name will compose to all last names.
+    If min length passed, would return only names are smaller than min length.
     :param first_names: List that contain first names.
     :param last_names: List that contain last names.
     :param min_length: Optional parameter that contain the min length of full name.
@@ -16,9 +19,6 @@ def full_names(first_names: list, last_names: list, min_length: int = None) -> l
 
 
 def main():
-    """
-    Main function
-    """
     first_names = ['avi', 'moshe', 'yaakov']
     last_names = ['cohen', 'levi', 'mizrahi']
     print(full_names(first_names, last_names, 10))
