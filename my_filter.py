@@ -3,6 +3,7 @@ from typing import Callable, Iterable, Generator
 
 def my_filter(function: Callable, iterable: Iterable) -> Generator:
     """
+    Implement filter function.
     :param function: Bool function
     :param iterable: Some iterable to pass over
     :return: Generator which holds all values are return True to function
