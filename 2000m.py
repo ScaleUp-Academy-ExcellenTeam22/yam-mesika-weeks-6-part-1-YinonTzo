@@ -3,6 +3,7 @@ import time
 
 def timer(function: callable, *args, **kwargs):
     """
+    Do the function and measure the time how long it takes.
     :param function: Function to run.
     :param args: Arguments for function.
     :param kwargs: Arguments for function.
