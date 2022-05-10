@@ -9,7 +9,7 @@ def clean_text(text: str) -> list:
     :return: List with only words.
     """
     exclist = string.punctuation + string.digits
-    table = str.maketrans('', '', exclist)
+    table = str.maketrans("", "", exclist)
     return text.translate(table).split()
 
 
